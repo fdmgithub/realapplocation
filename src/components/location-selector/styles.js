@@ -4,7 +4,8 @@ import colors from "../../utils/colors";
 
 export const styles = StyleSheet.create({
   container: {
-    marginVertical: 20,
+    flex: 1,
+    marginBottom: 20,
   },
   preview: {
     width: "100%",
@@ -12,10 +13,18 @@ export const styles = StyleSheet.create({
     marginBottom: 20,
     justifyContent: "center",
     alignItems: "center",
-    borderColor: colors.secondary,
+    borderColor: colors.primary,
     borderWidth: 1,
   },
-  containerActions: {
+  title: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+  },
+  buttonsContainer: {
     flexDirection: "row",
     justifyContent: "space-around",
   },

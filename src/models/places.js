@@ -1,6 +1,6 @@
 class Place {
   constructor(id, title, image, address, coords) {
-    this.id = id;
+    this.id = id.toString();
     this.title = title;
     this.image = image;
     this.address = address;
